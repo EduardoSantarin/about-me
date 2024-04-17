@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.about{
+    min-height: 100vh;
+    width: 100%;
+    padding:78px 0px;
+    background-color: black;
+}
+
+.about img{
+    border-radius: 5em;
+    border:2px solid red;
+    box-shadow: 0 0 5px red,
+                0 0 25px red;
+    height: auto;
+    width: 50%;
+    transition: 0.5s ease;      
+    margin: auto;
+    display: flex;
+      
+}
+
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.about-text h5{
+    color: white;
+    font-size: 28px;
+    text-transform: 25px;
+    margin-bottom: 0.4em;
+}
+
+span{
+    color: red;
+}
+
+.about-text p{
+    color: rgba(255, 236, 236, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+button{
+    background: transparent;
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s ease;
+    margin-right: 50px;
+}
+
+button:hover{
+    background: red;
+    color: white;
+    border: 2px solid red;
+    box-shadow: 0 0 5px red,
+                0 0 25px red;
+                cursor: pointer;
+                transform: scale(1.1);
+}
+
+.about img:hover{
+    box-shadow: 0 0 5px red,
+                0 0 25px red;
+                cursor: pointer;
+                transform: scale(0.8);
+}
+
+section{
+    display: flex;
+    text-align: center;
+}
+
+header{
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+header:hover{
+    background-color: red;
+}
+
+
